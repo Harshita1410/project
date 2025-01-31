@@ -1,0 +1,135 @@
+body {
+  background: linear-gradient(180deg, rgba(55,188,235,1) 0%, rgba(44,135,225,1) 38%, rgba(228,219,219,0.98) 100%);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#complete, #score {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Centering the quiz container */
+#quiz, .question-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  max-width: 700px;
+  text-align: center;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color:black;
+}
+
+.question-box {
+  background-color: #f9f9f9;
+  color: black;
+  text-align: left;
+}
+
+/* Buttons Styling */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+ }
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #f0ad4e;
+  color: white;
+
+}
+
+#submit{
+  background-color: #f39d25;
+  color: rgb(255, 255, 255);
+}
+
+#next{
+  background-color: #1e97b8;
+  color: rgb(255, 255, 255);
+  
+}
+
+#previous{
+  background-color: #dc2626;
+  color: rgb(255, 255, 255);
+
+}
+
+.start-btn, .restart-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding:15px;
+  margin-top: 15px;
+}
+
+.restart-btn{
+  margin-left:120px;
+}
+
+
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Scrollable summary table */
+.table-container {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+}
+
+.table-summary {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f667a5;
+}
+
+th {
+  background-color: #ffcc80;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.table-summary th, .table-summary td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Answer Status Colors */
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.incorrect {
+  color: red;
+  font-weight: bold;
+}
+
+.not-attempted {
+  color: orange;
+  font-weight: bold;
+}
+
