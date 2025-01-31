@@ -10,3 +10,5 @@ Currently, two official plugins are available:
 - The front page of the quiz application
   
 ![Image](https://github.com/user-attachments/assets/643df6eb-d0aa-4f8d-88c3-d62f13a52f6f)
+
+<!-- Failed to upload "Screen Recording 2025-01-31 231002.mp4" -->
